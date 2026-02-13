@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Register from './pages/Register/Register';
 import Login from './pages/Login/Login';
 import Dashboard from './pages/Dashboard/Dashboard';
-import ProtectedRoute from './components/Auth/ProtectedRoute';
+import ProtectedRoute from './components/auth/ProtectedRoute';
 
 function App() {
     return (
